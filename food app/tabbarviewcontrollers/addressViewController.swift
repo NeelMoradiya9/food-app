@@ -9,21 +9,22 @@ import UIKit
 
 class addressViewController: UIViewController {
 
+    @IBOutlet weak var view1: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view1.layer.borderWidth = 1
+        view1.layer.cornerRadius = 5
+        view1.layer.borderColor = UIColor.lightGray.cgColor
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func addbtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "AddAddressViewController")
+        as! AddAddressViewController
+        navigationController?.pushViewController(x, animated: true)
     }
-    */
-
+    @IBAction func retiurnbtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "profileViewController")
+        as! profileViewController
+        navigationController?.popViewController(animated: true)
+    }
 }

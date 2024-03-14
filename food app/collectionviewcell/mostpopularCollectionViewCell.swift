@@ -8,5 +8,8 @@
 import UIKit
 
 class mostpopularCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imgv: UIImageView!
+    @IBOutlet weak var price: UILabel!
     
+    @IBOutlet weak var lab: UILabel!
 }

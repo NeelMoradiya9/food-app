@@ -8,6 +8,7 @@
 import UIKit
 
 class signinViewController: UIViewController {
+    
     @IBOutlet weak var loginbtnout: UIButton!
     @IBOutlet weak var emailtxtout: UITextField!
     @IBOutlet weak var passwordtxtout: UITextField!
@@ -24,6 +25,11 @@ class signinViewController: UIViewController {
         let x = storyboard?.instantiateViewController(identifier: "ViewController")
         as! ViewController
         navigationController?.popToRootViewController(animated: true)
+    }
+    
+    @IBAction func forgotpassbtn(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "forgotpassViewController") as! forgotpassViewController
+        navigationController?.pushViewController(navigate, animated: true)
     }
     
     @IBAction func loginbtnact(_ sender: Any) {
@@ -50,9 +56,7 @@ class signinViewController: UIViewController {
         
         
         let a = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        
         a.addAction(UIAlertAction(title: "Okay", style: .default, handler: nil))
-        
         a.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
         
        present(a, animated: true)
@@ -62,8 +66,20 @@ class signinViewController: UIViewController {
     
     func navigation()
     {
+        let navigate = storyboard?.instantiateViewController(identifier: "tabbarViewController") as! tabbarViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    
+    @IBAction func signupbtn(_ sender: Any) {
         let navigate = storyboard?.instantiateViewController(identifier: "createacViewController") as! createacViewController
         navigationController?.pushViewController(navigate, animated: true)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func dismisskeyboard(){
+        view.endEditing(true)
     }
     
 }

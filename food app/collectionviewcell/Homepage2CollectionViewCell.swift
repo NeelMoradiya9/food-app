@@ -8,5 +8,8 @@
 import UIKit
 
 class Homepage2CollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var pricelab: UILabel!
     
+    @IBOutlet weak var lab1: UILabel!
+    @IBOutlet weak var imgv: UIImageView!
 }

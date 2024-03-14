@@ -7,15 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1802C5FE2B578F9F00B75422 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802C5FD2B578F9F00B75422 /* detailsViewController.swift */; };
+		180B3B2A2B22D4BB00C1C1DB /* WebnearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B3B292B22D4BB00C1C1DB /* WebnearbyViewController.swift */; };
+		180F86142B500F520006489C /* manageprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F86132B500F520006489C /* manageprofileViewController.swift */; };
+		180F86162B5016970006489C /* ChangepassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F86152B5016970006489C /* ChangepassViewController.swift */; };
+		18295DB12B4E5B02003ED5B7 /* MostPopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18295DB02B4E5B02003ED5B7 /* MostPopularViewController.swift */; };
+		18295DB32B4E5F82003ED5B7 /* mostpopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18295DB22B4E5F82003ED5B7 /* mostpopularCollectionViewCell.swift */; };
+		1831FF822B4D07DA000C1FFB /* RecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF812B4D07DA000C1FFB /* RecommendedViewController.swift */; };
+		1831FF842B4D0C5B000C1FFB /* forgotpassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF832B4D0C5B000C1FFB /* forgotpassViewController.swift */; };
+		1831FF862B4D29EB000C1FFB /* recommendedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF852B4D29EB000C1FFB /* recommendedTableViewCell.swift */; };
 		184B61B72B1458C4005CDC87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B61B62B1458C4005CDC87 /* AppDelegate.swift */; };
 		184B61B92B1458C4005CDC87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B61B82B1458C4005CDC87 /* SceneDelegate.swift */; };
 		184B61BB2B1458C4005CDC87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B61BA2B1458C4005CDC87 /* ViewController.swift */; };
 		184B61BE2B1458C4005CDC87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184B61BC2B1458C4005CDC87 /* Main.storyboard */; };
 		184B61C02B1458C6005CDC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184B61BF2B1458C6005CDC87 /* Assets.xcassets */; };
 		184B61C32B1458C6005CDC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184B61C12B1458C6005CDC87 /* LaunchScreen.storyboard */; };
+		184B61CB2B1478EA005CDC87 /* pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B61CA2B1478EA005CDC87 /* pageViewController.swift */; };
+		185A10762B19A7D0004B3517 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A10752B19A7D0004B3517 /* OtpViewController.swift */; };
+		1863A4582B428A4D003FC92C /* mycartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863A4572B428A4D003FC92C /* mycartViewController.swift */; };
+		1864A02E2B393DFD00C7C06A /* activeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864A02D2B393DFD00C7C06A /* activeViewController.swift */; };
+		186629F72B18504400D895C5 /* createacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186629F62B18504400D895C5 /* createacViewController.swift */; };
+		186F2D212B2F2C0700220A18 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F2D202B2F2C0700220A18 /* historyViewController.swift */; };
+		1878B5132B4FB5D3002FF393 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878B5122B4FB5D3002FF393 /* profileViewController.swift */; };
+		18820E2F2B4A76A700BBCBB5 /* totalpaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18820E2E2B4A76A700BBCBB5 /* totalpaymentViewController.swift */; };
+		188D82EE2B25954D00560564 /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D82ED2B25954D00560564 /* tabbarViewController.swift */; };
+		1890FF9D2B504A880048067A /* addressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890FF9C2B504A880048067A /* addressViewController.swift */; };
+		1890FF9F2B5054580048067A /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890FF9E2B5054580048067A /* AddAddressViewController.swift */; };
+		189318AF2B2017C90010D60C /* nearbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189318AE2B2017C90010D60C /* nearbyTableViewCell.swift */; };
+		18961BB82B510EF400DB3A84 /* ReferearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18961BB72B510EF400DB3A84 /* ReferearnViewController.swift */; };
+		18A257362B1EE6CF0022A728 /* homepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A257352B1EE6CF0022A728 /* homepageViewController.swift */; };
+		18A2573C2B1EE94A0022A728 /* nearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2573B2B1EE94A0022A728 /* nearbyViewController.swift */; };
+		18A2573E2B1EE9750022A728 /* myorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2573D2B1EE9750022A728 /* myorderViewController.swift */; };
+		18A257402B1EE9980022A728 /* saveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2573F2B1EE9980022A728 /* saveViewController.swift */; };
+		18A257422B1EE9AD0022A728 /* discountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A257412B1EE9AD0022A728 /* discountViewController.swift */; };
+		18BFE7542B4AA7D70094E2F2 /* billdetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFE7532B4AA7D70094E2F2 /* billdetailsViewController.swift */; };
+		18BFE7562B4AAB190094E2F2 /* AddnewcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFE7552B4AAB190094E2F2 /* AddnewcardViewController.swift */; };
+		18BFE7582B4AB5C60094E2F2 /* paymentsuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFE7572B4AB5C60094E2F2 /* paymentsuccessViewController.swift */; };
+		18C3C3072B55839E00D29520 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C3062B55839E00D29520 /* PaymentViewController.swift */; };
+		18D6F8CD2B47A0B500B5EC28 /* saveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6F8CC2B47A0B500B5EC28 /* saveTableViewCell.swift */; };
+		18DEDA352B1647AE00C1E357 /* pageViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEDA342B1647AE00C1E357 /* pageViewController2.swift */; };
+		18DEDA372B165C1B00C1E357 /* pageViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEDA362B165C1B00C1E357 /* pageViewController3.swift */; };
+		18DEDA392B16F89300C1E357 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEDA382B16F89300C1E357 /* signinViewController.swift */; };
+		18F71A542B3A9FB60080033A /* categoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F71A532B3A9FB60080033A /* categoriesViewController.swift */; };
+		18F9ED3B2B4BBA8F0031B056 /* HomePageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9ED3A2B4BBA8F0031B056 /* HomePageCollectionViewCell.swift */; };
+		18F9ED3D2B4BCAD20031B056 /* Homepage2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9ED3C2B4BCAD20031B056 /* Homepage2CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1802C5FD2B578F9F00B75422 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		180B3B292B22D4BB00C1C1DB /* WebnearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebnearbyViewController.swift; sourceTree = "<group>"; };
+		180F86132B500F520006489C /* manageprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageprofileViewController.swift; sourceTree = "<group>"; };
+		180F86152B5016970006489C /* ChangepassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangepassViewController.swift; sourceTree = "<group>"; };
+		18295DB02B4E5B02003ED5B7 /* MostPopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularViewController.swift; sourceTree = "<group>"; };
+		18295DB22B4E5F82003ED5B7 /* mostpopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostpopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		1831FF812B4D07DA000C1FFB /* RecommendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewController.swift; sourceTree = "<group>"; };
+		1831FF832B4D0C5B000C1FFB /* forgotpassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotpassViewController.swift; sourceTree = "<group>"; };
+		1831FF852B4D29EB000C1FFB /* recommendedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendedTableViewCell.swift; sourceTree = "<group>"; };
 		184B61B32B1458C4005CDC87 /* food app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184B61B62B1458C4005CDC87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184B61B82B1458C4005CDC87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +71,35 @@
 		184B61BF2B1458C6005CDC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184B61C22B1458C6005CDC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184B61C42B1458C6005CDC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184B61CA2B1478EA005CDC87 /* pageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController.swift; sourceTree = "<group>"; };
+		185A10752B19A7D0004B3517 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		1863A4572B428A4D003FC92C /* mycartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mycartViewController.swift; sourceTree = "<group>"; };
+		1864A02D2B393DFD00C7C06A /* activeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = activeViewController.swift; path = ../activeViewController.swift; sourceTree = "<group>"; };
+		186629F62B18504400D895C5 /* createacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createacViewController.swift; sourceTree = "<group>"; };
+		186F2D202B2F2C0700220A18 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		1878B5122B4FB5D3002FF393 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		18820E2E2B4A76A700BBCBB5 /* totalpaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalpaymentViewController.swift; sourceTree = "<group>"; };
+		188D82ED2B25954D00560564 /* tabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
+		1890FF9C2B504A880048067A /* addressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addressViewController.swift; sourceTree = "<group>"; };
+		1890FF9E2B5054580048067A /* AddAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		189318AE2B2017C90010D60C /* nearbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearbyTableViewCell.swift; sourceTree = "<group>"; };
+		18961BB72B510EF400DB3A84 /* ReferearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferearnViewController.swift; sourceTree = "<group>"; };
+		18A257352B1EE6CF0022A728 /* homepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageViewController.swift; sourceTree = "<group>"; };
+		18A2573B2B1EE94A0022A728 /* nearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearbyViewController.swift; sourceTree = "<group>"; };
+		18A2573D2B1EE9750022A728 /* myorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myorderViewController.swift; sourceTree = "<group>"; };
+		18A2573F2B1EE9980022A728 /* saveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveViewController.swift; sourceTree = "<group>"; };
+		18A257412B1EE9AD0022A728 /* discountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discountViewController.swift; sourceTree = "<group>"; };
+		18BFE7532B4AA7D70094E2F2 /* billdetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billdetailsViewController.swift; sourceTree = "<group>"; };
+		18BFE7552B4AAB190094E2F2 /* AddnewcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddnewcardViewController.swift; sourceTree = "<group>"; };
+		18BFE7572B4AB5C60094E2F2 /* paymentsuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentsuccessViewController.swift; sourceTree = "<group>"; };
+		18C3C3062B55839E00D29520 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		18D6F8CC2B47A0B500B5EC28 /* saveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveTableViewCell.swift; sourceTree = "<group>"; };
+		18DEDA342B1647AE00C1E357 /* pageViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController2.swift; sourceTree = "<group>"; };
+		18DEDA362B165C1B00C1E357 /* pageViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController3.swift; sourceTree = "<group>"; };
+		18DEDA382B16F89300C1E357 /* signinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		18F71A532B3A9FB60080033A /* categoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesViewController.swift; sourceTree = "<group>"; };
+		18F9ED3A2B4BBA8F0031B056 /* HomePageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCollectionViewCell.swift; sourceTree = "<group>"; };
+		18F9ED3C2B4BCAD20031B056 /* Homepage2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage2CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +113,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180B3B2C2B22D4D500C1C1DB /* webviews */ = {
+			isa = PBXGroup;
+			children = (
+				180B3B292B22D4BB00C1C1DB /* WebnearbyViewController.swift */,
+			);
+			path = webviews;
+			sourceTree = "<group>";
+		};
+		180B3B302B22E18700C1C1DB /* collectionviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				18295DB22B4E5F82003ED5B7 /* mostpopularCollectionViewCell.swift */,
+				18F9ED3A2B4BBA8F0031B056 /* HomePageCollectionViewCell.swift */,
+				18F9ED3C2B4BCAD20031B056 /* Homepage2CollectionViewCell.swift */,
+			);
+			path = collectionviewcell;
+			sourceTree = "<group>";
+		};
 		184B61AA2B1458C4005CDC87 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +150,99 @@
 		184B61B52B1458C4005CDC87 /* food app */ = {
 			isa = PBXGroup;
 			children = (
-				184B61B62B1458C4005CDC87 /* AppDelegate.swift */,
-				184B61B82B1458C4005CDC87 /* SceneDelegate.swift */,
-				184B61BA2B1458C4005CDC87 /* ViewController.swift */,
+				18A257382B1EE7110022A728 /* common */,
+				18A257372B1EE6EA0022A728 /* pageviewcontrollers */,
+				18A257392B1EE7500022A728 /* loginviewcontrollers */,
+				18A2573A2B1EE7940022A728 /* tabbarviewcontrollers */,
+				18AC5EC72B22101400FDA8B3 /* tableviewcells */,
+				180B3B2C2B22D4D500C1C1DB /* webviews */,
+				180B3B302B22E18700C1C1DB /* collectionviewcell */,
+				1884DDCF2B2C2410003445E8 /* segmentbarcontroller */,
 				184B61BC2B1458C4005CDC87 /* Main.storyboard */,
 				184B61BF2B1458C6005CDC87 /* Assets.xcassets */,
 				184B61C12B1458C6005CDC87 /* LaunchScreen.storyboard */,
 				184B61C42B1458C6005CDC87 /* Info.plist */,
 			);
 			path = "food app";
+			sourceTree = "<group>";
+		};
+		1884DDCF2B2C2410003445E8 /* segmentbarcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				186F2D202B2F2C0700220A18 /* historyViewController.swift */,
+				1864A02D2B393DFD00C7C06A /* activeViewController.swift */,
+			);
+			path = segmentbarcontroller;
+			sourceTree = "<group>";
+		};
+		18A257372B1EE6EA0022A728 /* pageviewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				184B61CA2B1478EA005CDC87 /* pageViewController.swift */,
+				18DEDA342B1647AE00C1E357 /* pageViewController2.swift */,
+				18DEDA362B165C1B00C1E357 /* pageViewController3.swift */,
+			);
+			path = pageviewcontrollers;
+			sourceTree = "<group>";
+		};
+		18A257382B1EE7110022A728 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				184B61B62B1458C4005CDC87 /* AppDelegate.swift */,
+				184B61BA2B1458C4005CDC87 /* ViewController.swift */,
+				184B61B82B1458C4005CDC87 /* SceneDelegate.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		18A257392B1EE7500022A728 /* loginviewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				18DEDA382B16F89300C1E357 /* signinViewController.swift */,
+				186629F62B18504400D895C5 /* createacViewController.swift */,
+				185A10752B19A7D0004B3517 /* OtpViewController.swift */,
+			);
+			path = loginviewcontrollers;
+			sourceTree = "<group>";
+		};
+		18A2573A2B1EE7940022A728 /* tabbarviewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				18BFE7552B4AAB190094E2F2 /* AddnewcardViewController.swift */,
+				18BFE7532B4AA7D70094E2F2 /* billdetailsViewController.swift */,
+				18F71A532B3A9FB60080033A /* categoriesViewController.swift */,
+				18A257412B1EE9AD0022A728 /* discountViewController.swift */,
+				180F86152B5016970006489C /* ChangepassViewController.swift */,
+				1831FF832B4D0C5B000C1FFB /* forgotpassViewController.swift */,
+				18A257352B1EE6CF0022A728 /* homepageViewController.swift */,
+				1863A4572B428A4D003FC92C /* mycartViewController.swift */,
+				1890FF9E2B5054580048067A /* AddAddressViewController.swift */,
+				18A2573D2B1EE9750022A728 /* myorderViewController.swift */,
+				18A2573B2B1EE94A0022A728 /* nearbyViewController.swift */,
+				1831FF812B4D07DA000C1FFB /* RecommendedViewController.swift */,
+				18BFE7572B4AB5C60094E2F2 /* paymentsuccessViewController.swift */,
+				18A2573F2B1EE9980022A728 /* saveViewController.swift */,
+				188D82ED2B25954D00560564 /* tabbarViewController.swift */,
+				18820E2E2B4A76A700BBCBB5 /* totalpaymentViewController.swift */,
+				180F86132B500F520006489C /* manageprofileViewController.swift */,
+				18295DB02B4E5B02003ED5B7 /* MostPopularViewController.swift */,
+				1878B5122B4FB5D3002FF393 /* profileViewController.swift */,
+				1890FF9C2B504A880048067A /* addressViewController.swift */,
+				18961BB72B510EF400DB3A84 /* ReferearnViewController.swift */,
+				18C3C3062B55839E00D29520 /* PaymentViewController.swift */,
+				1802C5FD2B578F9F00B75422 /* detailsViewController.swift */,
+			);
+			path = tabbarviewcontrollers;
+			sourceTree = "<group>";
+		};
+		18AC5EC72B22101400FDA8B3 /* tableviewcells */ = {
+			isa = PBXGroup;
+			children = (
+				1831FF852B4D29EB000C1FFB /* recommendedTableViewCell.swift */,
+				189318AE2B2017C90010D60C /* nearbyTableViewCell.swift */,
+				18D6F8CC2B47A0B500B5EC28 /* saveTableViewCell.swift */,
+			);
+			path = tableviewcells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +316,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A257362B1EE6CF0022A728 /* homepageViewController.swift in Sources */,
 				184B61BB2B1458C4005CDC87 /* ViewController.swift in Sources */,
+				189318AF2B2017C90010D60C /* nearbyTableViewCell.swift in Sources */,
+				18DEDA352B1647AE00C1E357 /* pageViewController2.swift in Sources */,
+				1831FF842B4D0C5B000C1FFB /* forgotpassViewController.swift in Sources */,
+				185A10762B19A7D0004B3517 /* OtpViewController.swift in Sources */,
+				1890FF9D2B504A880048067A /* addressViewController.swift in Sources */,
 				184B61B72B1458C4005CDC87 /* AppDelegate.swift in Sources */,
+				18F71A542B3A9FB60080033A /* categoriesViewController.swift in Sources */,
+				180B3B2A2B22D4BB00C1C1DB /* WebnearbyViewController.swift in Sources */,
+				18A2573C2B1EE94A0022A728 /* nearbyViewController.swift in Sources */,
+				18DEDA372B165C1B00C1E357 /* pageViewController3.swift in Sources */,
+				18BFE7542B4AA7D70094E2F2 /* billdetailsViewController.swift in Sources */,
+				180F86142B500F520006489C /* manageprofileViewController.swift in Sources */,
+				180F86162B5016970006489C /* ChangepassViewController.swift in Sources */,
+				18BFE7582B4AB5C60094E2F2 /* paymentsuccessViewController.swift in Sources */,
+				1831FF862B4D29EB000C1FFB /* recommendedTableViewCell.swift in Sources */,
+				18820E2F2B4A76A700BBCBB5 /* totalpaymentViewController.swift in Sources */,
+				18BFE7562B4AAB190094E2F2 /* AddnewcardViewController.swift in Sources */,
+				1878B5132B4FB5D3002FF393 /* profileViewController.swift in Sources */,
+				18A2573E2B1EE9750022A728 /* myorderViewController.swift in Sources */,
+				1831FF822B4D07DA000C1FFB /* RecommendedViewController.swift in Sources */,
+				18295DB32B4E5F82003ED5B7 /* mostpopularCollectionViewCell.swift in Sources */,
+				1864A02E2B393DFD00C7C06A /* activeViewController.swift in Sources */,
+				18DEDA392B16F89300C1E357 /* signinViewController.swift in Sources */,
+				18F9ED3D2B4BCAD20031B056 /* Homepage2CollectionViewCell.swift in Sources */,
+				188D82EE2B25954D00560564 /* tabbarViewController.swift in Sources */,
+				18C3C3072B55839E00D29520 /* PaymentViewController.swift in Sources */,
+				18961BB82B510EF400DB3A84 /* ReferearnViewController.swift in Sources */,
+				1890FF9F2B5054580048067A /* AddAddressViewController.swift in Sources */,
 				184B61B92B1458C4005CDC87 /* SceneDelegate.swift in Sources */,
+				186629F72B18504400D895C5 /* createacViewController.swift in Sources */,
+				1863A4582B428A4D003FC92C /* mycartViewController.swift in Sources */,
+				18F9ED3B2B4BBA8F0031B056 /* HomePageCollectionViewCell.swift in Sources */,
+				186F2D212B2F2C0700220A18 /* historyViewController.swift in Sources */,
+				1802C5FE2B578F9F00B75422 /* detailsViewController.swift in Sources */,
+				18D6F8CD2B47A0B500B5EC28 /* saveTableViewCell.swift in Sources */,
+				184B61CB2B1478EA005CDC87 /* pageViewController.swift in Sources */,
+				18A257402B1EE9980022A728 /* saveViewController.swift in Sources */,
+				18A257422B1EE9AD0022A728 /* discountViewController.swift in Sources */,
+				18295DB12B4E5B02003ED5B7 /* MostPopularViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

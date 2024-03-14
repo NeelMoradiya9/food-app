@@ -9,21 +9,21 @@ import UIKit
 
 class myorderViewController: UIViewController {
 
+    @IBOutlet weak var firstview: UIView!
+    @IBOutlet weak var secondview: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func switchViews( sender:UISegmentedControl){
+        if sender.selectedSegmentIndex == 0 {
+            firstview.alpha = 1
+            secondview.alpha = 0
+        } else {
+            firstview.alpha = 0
+            secondview.alpha = 1
+        }
     }
-    */
 
 }

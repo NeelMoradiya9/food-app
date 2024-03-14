@@ -19,9 +19,21 @@ class OtpViewController: UIViewController {
         verifybtnout.layer.shadowOffset = .zero
         verifybtnout.layer.shadowRadius = 5
     }
+    
+    @IBAction func verifybtnact(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "tabbarViewController") as! tabbarViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    
     @IBAction func returnbtnact(_ sender: Any) {
         let x = storyboard?.instantiateViewController(identifier: "createacViewController")
         as! createacViewController
         navigationController?.popViewController(animated: true)
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func dismisskeyboard(){
+        view.endEditing(true)
     }
 }

@@ -19,12 +19,6 @@ class pageViewController3: UIViewController {
         navigationController?.popToRootViewController(animated: true)
     }
     
-    @IBAction func skipbtn(_ sender: Any) {
-        let x = storyboard?.instantiateViewController(identifier: "signinViewController")
-        as! signinViewController
-        navigationController?.pushViewController(x, animated: true)
-    }
-    
     @IBAction func nextbtnact(_ sender: Any) {
         let x = storyboard?.instantiateViewController(identifier: "signinViewController")
         as! signinViewController

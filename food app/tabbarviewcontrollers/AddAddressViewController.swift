@@ -11,19 +11,22 @@ class AddAddressViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func returnbtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "addressViewController")
+        as! addressViewController
+        navigationController?.popViewController(animated: true)
     }
-    */
-
+    @IBAction func savebtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "addressViewController")
+        as! addressViewController
+        navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func deletebtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "addressViewController")
+        as! addressViewController
+        navigationController?.popViewController(animated: true)
+    }
 }

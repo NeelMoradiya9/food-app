@@ -8,7 +8,6 @@
 import UIKit
 
 class segmentbarTableViewCell: UITableViewCell {
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

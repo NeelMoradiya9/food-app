@@ -11,19 +11,37 @@ class profileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func referandearn(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "ReferearnViewController") as! ReferearnViewController
+        navigationController?.pushViewController(navigate, animated: true)
     }
-    */
-
+    
+    
+    @IBAction func paymentbtnact(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "PaymentViewController") as! PaymentViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    
+    @IBAction func adressbtnact(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "addressViewController") as! addressViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    
+    
+    @IBAction func changepassbtnact(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "ChangepassViewController") as! ChangepassViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    
+    @IBAction func myprofilebtnact(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "manageprofileViewController") as! manageprofileViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
+    @IBAction func returnbtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "homepageViewController")
+        as! homepageViewController
+        navigationController?.popViewController(animated: true)
+    }
 }

@@ -16,7 +16,6 @@ class nearbyTableViewCell: UITableViewCell {
     @IBOutlet weak var view: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        view.layer.cornerRadius = 5
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

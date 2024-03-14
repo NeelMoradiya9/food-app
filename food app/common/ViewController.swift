@@ -27,5 +27,10 @@ class ViewController: UIViewController {
             as! pageViewController
             navigationController?.pushViewController(x, animated: true)
     }
+    
+    @IBAction func signup(_ sender: Any) {
+        let navigate = storyboard?.instantiateViewController(identifier: "createacViewController") as! createacViewController
+        navigationController?.pushViewController(navigate, animated: true)
+    }
 }
 

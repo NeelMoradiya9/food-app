@@ -8,22 +8,25 @@
 import UIKit
 
 class detailsViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var myview1: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        myview1.layer.borderWidth = 1
+        myview1.layer.cornerRadius = 5
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func returnbtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "MostPopularViewController")
+        as! MostPopularViewController
+        navigationController?.popViewController(animated: true)
     }
-    */
-
+    
+    @IBAction func ordernowbtnact(_ sender: Any) {
+        let x = storyboard?.instantiateViewController(identifier: "mycartViewController")
+        as! mycartViewController
+        navigationController?.pushViewController(x, animated: true)
+    }
 }

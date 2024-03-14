@@ -9,4 +9,6 @@ import UIKit
 
 class HomePageCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var lab1: UILabel!
+    @IBOutlet weak var imagev: UIImageView!
 }
